@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover films, series and animated stories that match who you are — and who you want to become." />
+  <meta name="theme-color" content="#0b0a10" />
+  <title>Beyond The Screen — Discover yourself through stories</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Beyond The Screen home">
+      <span class="brand-mark">B<span>·</span>S</span>
+      <span class="brand-name">BEYOND <b>THE SCREEN</b></span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#concept">The concept</a>
+      <a href="#how-it-works">How it works</a>
+      <a href="#discover">Discover</a>
+      <a class="nav-cta" href="#begin">Begin your journey <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> A NEW WAY TO DISCOVER STORIES</div>
+        <h1 id="hero-title">Find the stories<br />that <em>feel like you.</em></h1>
+        <p class="hero-description">Not just what you like to watch. Discover films, series and animated worlds that reflect who you are — and inspire who you want to become.</p>
+        <div class="hero-actions" id="begin">
+          <button class="button button-primary" id="startButton">Discover your story <span>↗</span></button>
+          <a class="button button-quiet" href="#concept"><span class="play-icon">▷</span> Explore the idea</a>
+        </div>
+        <div class="hero-note"><span class="sparkle">✦</span> Your personality. Your next favorite story.</div>
+      </div>
+
+      <div class="hero-art" aria-label="A cinematic collection of stories">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="poster poster-back">
+          <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=700&q=85" alt="A cinematic movie theater" />
+        </div>
+        <div class="poster poster-main">
+          <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=90" alt="Atmospheric cinema screen and seats" />
+          <div class="poster-shade"></div>
+          <div class="poster-caption"><span>YOUR NEXT CHAPTER</span><strong>Starts with a story.</strong></div>
+        </div>
+        <div class="poster poster-front">
+          <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=85" alt="A mysterious glowing forest" />
+        </div>
+        <div class="floating-card match-card">
+          <span class="card-icon">✦</span>
+          <span><small>YOUR STORY MATCH</small><strong>Made for your kind of wonder</strong></span>
+        </div>
+        <div class="floating-card trait-card"><span class="trait-dot"></span> Curiosity <span class="trait-separator">·</span> Imagination</div>
+        <div class="art-label">01 <span>—</span> THE ART OF FINDING YOU</div>
+      </div>
+
+      <div class="hero-bottomline">
+        <span>MORE THAN A RECOMMENDATION</span>
+        <span class="bottomline-center">A little self-discovery, one story at a time</span>
+        <a href="#concept" aria-label="Scroll to discover">SCROLL TO DISCOVER <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="concept section-wrap" id="concept">
+      <div class="section-kicker">01 / THE CONCEPT</div>
+      <div class="concept-content">
+        <h2>Stories can show us<br /><em>more than another world.</em></h2>
+        <p>Sometimes a character feels familiar. Sometimes their courage, curiosity or way of seeing the world is something we hope to find in ourselves. Beyond The Screen brings that connection into the way you discover what to watch.</p>
+      </div>
+    </section>
+
+    <section class="steps section-wrap" id="how-it-works">
+      <div class="section-heading">
+        <div class="section-kicker">02 / YOUR JOURNEY</div>
+        <h2>Three steps. <em>A more personal watchlist.</em></h2>
+      </div>
+      <div class="step-grid">
+        <article class="step-card"><span class="step-number">01</span><div class="step-symbol">◉</div><h3>Know yourself</h3><p>Explore your personality through a thoughtful set of questions.</p></article>
+        <article class="step-card"><span class="step-number">02</span><div class="step-symbol">✧</div><h3>Choose who to become</h3><p>Pick the qualities you admire and would like to develop.</p></article>
+        <article class="step-card"><span class="step-number">03</span><div class="step-symbol">▷</div><h3>Find your stories</h3><p>Get film, series and animation suggestions shaped around you.</p></article>
+      </div>
+    </section>
+
+    <section class="discover-band" id="discover">
+      <div class="discover-inner">
+        <div class="section-kicker">03 / BEYOND THE GENRE</div>
+        <h2>Watch what you love.<br /><em>Discover what moves you.</em></h2>
+        <p>Because the right story is not always the most popular one. Sometimes, it is the one that speaks to you.</p>
+        <button class="button button-primary" id="bottomStartButton">Find your kind of story <span>↗</span></button>
+      </div>
+      <div class="discover-decoration" aria-hidden="true">B<span>·</span>S</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">B<span>·</span>S</span><span class="brand-name">BEYOND <b>THE SCREEN</b></span></a>
+    <span>Discover yourself through stories.</span>
+    <span class="footer-copy">© <span id="year"></span> Beyond The Screen</span>
+  </footer>
+
+  <div class="modal-backdrop" id="comingSoonModal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModal" aria-label="Close dialog">×</button>
+      <div class="modal-star">✦</div>
+      <div class="section-kicker">YOUR JOURNEY STARTS SOON</div>
+      <h2 id="modalTitle">Your story is<br /><em>still being written.</em></h2>
+      <p>The personality experience is part of the next stage of Beyond The Screen. For now, you’re getting a first look at the idea.</p>
+      <button class="button button-primary" id="modalOkay">Sounds good <span>✓</span></button>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
